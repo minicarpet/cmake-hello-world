@@ -1,4 +1,9 @@
 cmake_minimum_required (VERSION 3.27)
+
+set(CMAKE_SYSTEM_NAME "Linux")
+set(CMAKE_SYSTEM_PROCESSOR "arm64")
+set(CMAKE_BUILD_TYPE "Release")
+
 project (CMakeHelloWorld)
 
 #version number
